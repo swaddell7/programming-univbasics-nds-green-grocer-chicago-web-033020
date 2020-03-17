@@ -1,13 +1,13 @@
 def find_item_by_name_in_collection(name, collection)
-index = 0 
-while index < collection.length do
+  index = 0 
+  while index < collection.length do
 
-  if collection[index].value?(name) 
-   return collection[index]
+    if collection[index].value?(name) 
+    return collection[index]
   end
   
   index += 1 
-end
+  end
 end
 
 def consolidate_cart(cart)
